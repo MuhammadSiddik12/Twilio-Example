@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
     res.send({ message: "Hello World" })
 })
 
-
 app.get('/sendMessage', (req, res) => {
     sendMessage()
     setTimeout(() => {
