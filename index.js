@@ -13,7 +13,6 @@ app.get('/sendMessage', (req, res) => {
     setTimeout(() => {
         res.send({ message: "Message sent successFully" })
     }, 3000)
-
 })
 
 function sendMessage() {
